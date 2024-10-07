@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils';
 import { createRouter, createWebHistory } from 'vue-router';
-import ContactView from '@/views/ContactView.vue';
+import ContactView  from '@/views/ContactView.vue';
 
 describe('ContactView', () => {
   test('Probando la existencia del componente o vista ContactView', async () => {
@@ -9,7 +9,7 @@ describe('ContactView', () => {
       routes: [
         {
           path: '/contact',
-          name: 'ContactView',
+          name: 'contact',
           component: ContactView
         }
       ]
